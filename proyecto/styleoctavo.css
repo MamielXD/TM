@@ -10,4 +10,16 @@ body{
     border-radius: 4%;
     border-width: 10px;
     border-color: rgb(117, 191, 234);
-    
+}
+
+@media (max-width: 768px) {
+    body {
+      /* Propiedades específicas para smartphones */
+      background-size: cover;
+      border-style: none;
+    }
+
+    img {
+        width: 90%;
+    }
+  }
