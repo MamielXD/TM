@@ -18,4 +18,8 @@ body{
       background-size: cover;
       border-style: none;
     }
+
+    img {
+        width: 50%;
+    }
   }
